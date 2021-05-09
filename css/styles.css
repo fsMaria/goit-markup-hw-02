@@ -4,16 +4,20 @@
 }
 
 .site-nav a {
-  color: black;
+  color: #212121;
 }
 .site-nav a:active,
-.site-nav a:hover {
+.site-nav a:hover,
+.site-nav a:focus {
   color: #2196f3;
 }
 .contacts a {
   color: #757575;
 }
 .contacts:hover a {
+  color: #2196f3;
+}
+.contacts a:focus {
   color: #2196f3;
 }
 .hero {
@@ -23,12 +27,25 @@
   background-color: #2196f3;
   width: 200px;
   height: 50px;
+  cursor: pointer;
+}
+.button-prime:focus {
+  color: #2196f3;
+  cursor: pointer;
 }
 .buttons {
   background-clip: #f5f4fa;
   color: #212121;
+  cursor: pointer;
 }
 .buttons:hover {
   background-color: #2196f3;
   color: #ffffff;
+}
+.buttons:focus {
+  color: #2196f3;
+  cursor: pointer;
+}
+body {
+  font-size: roboto;
 }
