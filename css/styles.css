@@ -1,0 +1,34 @@
+.logo {
+}
+.header {
+}
+
+.site-nav a {
+  color: black;
+}
+.site-nav a:active,
+.site-nav a:hover {
+  color: #2196f3;
+}
+.contacts a {
+  color: #757575;
+}
+.contacts:hover a {
+  color: #2196f3;
+}
+.hero {
+}
+.button-prime {
+  color: #ffffff;
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+}
+.buttons {
+  background-clip: #f5f4fa;
+  color: #212121;
+}
+.buttons:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
