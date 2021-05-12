@@ -27,6 +27,7 @@ ul{
 .logo {
   font-size: 26px;
   font-weight: bold;
+  line-height: 1.9;
 }
 .logo .web {
   color: var(--accent-color);
@@ -38,6 +39,7 @@ ul{
 .site-nav a {
   color: var(--title-text-color);
   font-size: 14px;
+  line-height: 1.1;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -49,15 +51,17 @@ ul{
  
 }
 .hero-title {
-  color: var(--white-color);
+  color: var(--accent-color);
   font-size: 44px;
   font-weight: 900;
+  line-height: 1.4;
 }
 
 .hero-button {
   color: var(--white-color);
   background-color: var(--accent-color);
   font-size: 16px;
+  line-height: 1.9;
 }
 .hero-button:hover, .hero-button:focus {
   cursor: pointer;
@@ -67,9 +71,11 @@ ul{
   color: var(--title-text-color);
   font-size: 14px;
   font-weight: bold;
+  line-height: 1.1;
 }
 .feature-list-text {
   font-size: 14px;
+  line-height: 1.7;
 }
 .section {
 }
@@ -77,20 +83,24 @@ ul{
   color: var(--title-text-color);
   font-size: 36px;
   font-weight: bold;
+  line-height: 1.2;
 }
 .name {
   color: var(--title-text-color);
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.2;
 }
 .profession {
   font-size: 16px;
+  line-height: 1.2;
 }
 /* buttons */
 .buttons {
   background-color: var(--white-color);
   color: var(--title-text-color);
   font-size: 16px;
+  line-height: 1.6;
 }
 .buttons:hover, .buttons:focus {
   background-color: var(--accent-color);
@@ -101,30 +111,34 @@ ul{
 .contacts a {
   color: var(--primary-text-color);
   font-size: 14px;
-  
+  line-height: 1.1;  
 }
 .contacts a:hover, .contacts a:focus {
   color: var(--accent-color);
 }
 .contact-footer a {
   color: var(--white-color);
+  line-height: 1.7;
 }
 .contact-footer a:hover, .contact-footer a:focus {
   color: var(--accent-color);
 }
-.address {
+.street {
   font-size: 14px;
   color:  var(--white-color);
+  line-height: 1.7;
 }
-.address:hover, .address:focus {
+.street:hover, .street:focus {
   color: var(--accent-color);
 }
 .type {
 color: var(--title-text-color);
 font-weight: bold;
 font-size: 18px;
+line-height: 2;
 }
 .type-develop {
 font-weight: normal;
 font-size: 16px;
+line-height: 1.9;
 }
