@@ -1,16 +1,117 @@
-.page {
-  background-color: #ffffff;
-  color: rgba(117, 117, 117, 1);
-}
-
-ul {
-  list-style: none;
+:root {
+  --primary-text-color: rgba(117, 117, 117, 1);
+  --title-text-color: rgba(33, 33, 33, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  --secondary-background-color: rgba(47, 48, 58, 1);
 }
 /* цвет основного текста rgba(117, 117, 117, 1) */
 /* вторичный цвет текста #212121 */
 /* белый #FFFFFF; */
 /* акцент #2196F3; */
 /* вторичный цвет фона #F5F4FA; #2F303A; */
+
+.page {
+  color: var(--primary-text-color);
+  background-color: var(--white-color)
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; 
+  }
+
+
+ul{
+  list-style: none;
+}
+
+/* logo */
 .logo {
-  color: #2196f3;
+  font-size: 26px;
+}
+.logo .web {
+  color: var(--accent-color);
+}
+.logo .studio {
+  color: var(--title-text-color);
+}
+/* Site nav */
+.site-nav a {
+  color: var(--title-text-color);
+  font-size: 14px;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero {
+  color: var(--white-color);
+ 
+}
+.hero-title {
+  color: var(--white-color);
+  font-size: 44px;
+}
+
+.hero-button {
+  font-size: 16px;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  
+
+}
+.hero-button:hover, .hero-button:focus {
+  cursor: pointer;
+}
+/* main */
+.feature-list .title {
+  color: var(--title-text-color);
+  font-size: 14px;
+}
+.feature-list-text {
+  font-size: 14px;
+}
+.section {
+}
+.section-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+}
+.name {
+  color: var(--title-text-color);
+  font-size: 16px;
+}
+.profession {
+  font-size: 16px;
+}
+/* buttons */
+.buttons {
+  background-color: var(--white-color);
+  color: var(--title-text-color)
+}
+.buttons:hover, .buttons:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+/* contacts */
+.contacts a {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  
+}
+.contacts a:hover, .contacts a:focus {
+  color: var(--accent-color);
+}
+.contact-footer a {
+  color: var(--white-color);
+}
+.contact-footer a:hover, .contact-footer a:focus {
+  color: var(--accent-color);
+}
+.address {
+  font-size: 14px;
+  color:  var(--white-color);
+}
+.address:hover, .address:focus {
+  color: var(--accent-color);
 }
