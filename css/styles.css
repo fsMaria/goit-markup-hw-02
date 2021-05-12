@@ -26,6 +26,7 @@ ul{
 /* logo */
 .logo {
   font-size: 26px;
+  font-weight: bold;
 }
 .logo .web {
   color: var(--accent-color);
@@ -50,22 +51,22 @@ ul{
 .hero-title {
   color: var(--white-color);
   font-size: 44px;
+  font-weight: 900;
 }
 
 .hero-button {
-  font-size: 16px;
   color: var(--white-color);
   background-color: var(--accent-color);
-  
-
+  font-size: 16px;
 }
 .hero-button:hover, .hero-button:focus {
   cursor: pointer;
 }
 /* main */
-.feature-list .title {
+.feature-list-title {
   color: var(--title-text-color);
   font-size: 14px;
+  font-weight: bold;
 }
 .feature-list-text {
   font-size: 14px;
@@ -75,10 +76,12 @@ ul{
 .section-title {
   color: var(--title-text-color);
   font-size: 36px;
+  font-weight: bold;
 }
 .name {
   color: var(--title-text-color);
   font-size: 16px;
+  font-weight: 500;
 }
 .profession {
   font-size: 16px;
@@ -86,7 +89,8 @@ ul{
 /* buttons */
 .buttons {
   background-color: var(--white-color);
-  color: var(--title-text-color)
+  color: var(--title-text-color);
+  font-size: 16px;
 }
 .buttons:hover, .buttons:focus {
   background-color: var(--accent-color);
@@ -114,4 +118,13 @@ ul{
 }
 .address:hover, .address:focus {
   color: var(--accent-color);
+}
+.type {
+color: var(--title-text-color);
+font-weight: bold;
+font-size: 18px;
+}
+.type-develop {
+font-weight: normal;
+font-size: 16px;
 }
