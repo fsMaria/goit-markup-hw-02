@@ -126,6 +126,12 @@ a {
   color: var(--white-color);
   cursor: pointer;
 }
+
+.prime-button{
+background-color: var(--accent-color);
+color: var(--white-color);
+}
+
 /* contacts */
 .contacts a {
   color: var(--primary-text-color);
