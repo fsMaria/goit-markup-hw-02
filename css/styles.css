@@ -161,7 +161,7 @@ color: var(--white-color);
 }
 .type {
 color: var(--title-text-color);
-font-weight: bold;
+font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
