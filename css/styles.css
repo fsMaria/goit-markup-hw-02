@@ -4,6 +4,7 @@
   --accent-color: rgba(33, 150, 243, 1);
   --white-color: rgba(255, 255, 255, 1);
   --secondary-background-color: rgba(47, 48, 58, 1);
+  --team-color: rgba(245, 244, 250, 1);
 }
 /* цвет основного текста rgba(117, 117, 117, 1) */
 /* вторичный цвет текста #212121 */
@@ -70,6 +71,7 @@ a {
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -91,13 +93,15 @@ a {
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .feature-list-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.section {
+.team-section {
+  background-color: var(--team-color);
 }
 .section-title {
   color: var(--title-text-color);
@@ -128,6 +132,7 @@ a {
   line-height: 1.6;
   letter-spacing: 0.03em;
   filter: var(--accent-color);
+  font-family: inherit;
 }
 .buttons:hover,
 .buttons:focus {
@@ -139,6 +144,10 @@ a {
 .prime-button {
   background-color: var(--accent-color);
   color: var(--white-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 /* контакты */
@@ -154,7 +163,7 @@ a {
   color: var(--accent-color);
 }
 .contact-footer a {
-  color: var(--white-color);
+  color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
@@ -168,10 +177,7 @@ a {
   color: var(--white-color);
   line-height: 1.7;
 }
-.street:hover,
-.street:focus {
-  color: var(--accent-color);
-}
+
 .footer {
   background-color: var(--secondary-background-color);
 }
