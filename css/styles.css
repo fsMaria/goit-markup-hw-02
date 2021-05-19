@@ -163,6 +163,7 @@ a {
   color: var(--accent-color);
 }
 .street {
+  font-style: normal;
   font-size: 14px;
   color: var(--white-color);
   line-height: 1.7;
@@ -171,6 +172,10 @@ a {
 .street:focus {
   color: var(--accent-color);
 }
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
 /* заголовки */
 .type {
   color: var(--title-text-color);
@@ -183,7 +188,4 @@ a {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-}
-.footer {
-  background-color: var(--secondary-background-color);
 }
