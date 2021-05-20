@@ -61,11 +61,11 @@ a {
 
 /* герой */
 .hero {
+  background-color: var(--secondary-background-color);
 }
 
 .hero-title {
   color: var(--white-color);
-  background-color: var(--secondary-background-color);
   font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
